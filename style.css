@@ -1,0 +1,167 @@
+body {
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  color: rgba(0,0,0,0.87);
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  color: rgba(0,0,0,.54);
+  background: #F2F2F7;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+footer a {
+  color: rgba(0,0,0,.54);
+}
+
+input {
+  width: 550px;
+  height: 35px;
+  font-size: 16px;
+}
+
+main {
+  margin: 140px 0;
+}
+
+nav {
+  height: 50px;
+}
+
+#buttons {
+  margin: 40px 0;
+}
+
+#buttons a {
+  color: #757575;
+  font-weight: bold;
+}
+
+#buttons a:hover {
+  color: #222;
+  text-decoration: none;
+}
+
+#buttons li {
+  padding: 10px;
+  margin-right: 20px;
+  background-color: #f2f2f2;
+  border-radius: 2px;
+  border: #f2f2f2 1px solid;
+}
+
+#buttons li:hover {
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+#country {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #e4e4e4;
+  font-size: 15px;
+  padding-left: 30px;
+}
+
+#country p {
+  margin: 10px 0;
+}
+
+#footer-menu {
+  width: 100%;
+  height: 40px;
+  padding: 0 30px;
+}
+
+#footer-menu ul{
+  padding: 10px 40px 10px 0;
+  margin: 7px 0;
+}
+
+#footer-menu li{
+  padding-right: 10px;
+}
+
+#languages ul, li {
+  display: inline;
+}
+
+#languages ul {
+  padding-left: 10px;
+}
+
+#languages li {
+  padding-right: 10px;
+}
+
+#languages a {
+  color: #1a0dab;
+}
+
+#left-menu {
+  padding-left: 0;
+  display: inline-block;
+}
+
+#menu {
+  list-style-type: none;
+  right: 0;
+  text-align: right;
+  padding: 5px 30px;
+  display: table;
+  float: right;
+}
+
+#menu a {
+  color: rgba(0,0,0,0.87);
+}
+
+#menu li {
+  display: table-cell;
+  padding: 0 10px;
+  vertical-align: middle;
+}
+
+#search-input {
+  margin: 25px 0;
+}
+
+li#sign-in {
+  background: #4683ea;
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  border-radius: 2px;
+  padding: 5px 12px;
+}
+
+#sign-in a {
+  color: #fff;
+}
+
+#sign-in a:hover {
+  text-decoration: none;
+}
+
+#right-menu {
+  float: right;
+  display: inline-block;
+}
+
+#right-menu li {
+  display: table-cell;
+}
+
+.centered {
+  text-align: center;
+}
